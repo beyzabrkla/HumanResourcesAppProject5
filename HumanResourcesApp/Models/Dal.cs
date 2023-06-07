@@ -15,7 +15,7 @@ namespace HumanResourcesApp.Models
         public DateTime lastQueryTime;
         public String lastQuerySQL;
 
-        public SqlConnection myConnection = new SqlConnection("server=185.141.34.56;database=truva;uid=truvaUser;pwd=LUNBLCETNNAHT7YNL*--;integrated security=false;MultipleActiveResultSets=true");
+        public SqlConnection myConnection = new SqlConnection("");
 
 
         public DataSet CommandExecuteReader(String sql, SqlConnection conn)
